@@ -1,0 +1,69 @@
+h1 {
+    padding-top:30px;
+    text-align:center;
+    font-size:40px;
+}
+
+h2 {
+    text-align:center;
+    font-size:30px;
+}
+
+#computer{
+    text-align:center;
+    background-color:rgb(165, 217, 241);
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+#human{
+    text-align:center;
+    background-color:rgb(211, 156, 236);
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+table{
+    width:80px;
+    height:80px;
+    border-style:solid;
+    border-color:black;
+    font-size:40px;
+    color:black;
+}
+
+#minus{
+    width:40px;
+    height:40px;
+    font-style:bold;
+}
+
+#plus {
+    width:40px;
+    height:40px;
+    font-style:bold;
+}
+
+#guesser{
+    color:white;
+    background-color:rgb(192, 46, 192);
+    margin-top:10px;
+}
+
+
+#next {
+    text-align:center;
+    height:50px;
+    color:white;
+    font-style:bold;
+    background-color:red;
+    box-shadow:none;
+
+}
+
+#footer {
+    background-color:rgb(211, 206, 206);
+    padding:20px;
+    text-align:center;
+}
+

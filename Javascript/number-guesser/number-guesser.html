@@ -5,40 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Number Guesser</title>
     <link rel='stylesheet' href='style.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+    crossorigin="anonymous">
 </head>
 <body>
     <header>
         <h1>Number Guesser!</h1>
-        <h2 class='round'>Round </h2>
+        <br>
+        <h2 id='round'>Round</h2>
         <h2>Target Number: ?</h2>
     </header>
-    <main>
-        <div class='computer'>
-            <h3>Computer</h3>
-            <p>score:</p>
+    <br>
+    <div class='main'>
+        <div class='row'>
+            <div class='col-md-2'></div>
+            <div id='computer' class='col-md-4'>
+                <h3>Computer</h3>
+                <p>score:</p>
+            </div>
+            <div id='human' class='col-md-4'>
+                <h3>You</h3>
+                <p>score:</p>
+                <table>
+                    <tr>
+                        <th class='number'>0</th>
+                    </tr>
+                </table>
+                <button id='minus'>-</button><button id='plus'>+</button>
+                <div>
+                    <button id='guesser'>Make a Guess</button>
+                </div>
+            </div>
+            <div class='col-md-2'></div>
         </div>
-        <div class='human'>
-            <h3>You</h3>
-            <p>score:</p>
+    </div>
+    <br>
+    <div class='row'>
+        <div class='col-md-5'></div>
+        <button id='next' class='col-md-2'>Next Round</button>
+        <div class='col-md-5'></div>
+    </div>
+    <br>
+    <div id='footer' >
+        <div class='row'>
+            <div id='step1' class='col-md-4'>
+                <h4>Step 1</h4>
+                <p>Input a number between 0 and 9</p>
+            </div>
+            <div id='step2' class='col-md-4'>
+                <h4>Step 2</h4>
+                <p>Click "Make a Guess" to submit your guess and see who won the round.</p>
+            </div>
+            <div id='step3'class='col-md-4'>
+                <h4>Step 3</h4>
+                <p>Click "Next Round" to play again.</p>
+            </div>
         </div>
-    </main>
-    <footer>
-        <div class='step1'>
-            <h4>Step 1</h4>
-            <p>Input a number between 0 and 9</p>
-
-        </div>
-        <div class='step2'>
-            <h4>Step 2</h4>
-            <p>Click "Make a Guess" to submit your guess and see who won the round.</p>
-
-        </div>
-        <div class='step3'>
-            <h4>Step 3</h4>
-            <p>Click "Next Round" to play again.</p>
-        </div>
-
-    </footer>
+    </div>
 
 
     <script src='function.js'></script>
