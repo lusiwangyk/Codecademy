@@ -23,13 +23,10 @@ h2 {
     padding-bottom:30px;
 }
 
-table{
-    width:80px;
-    height:80px;
-    border-style:solid;
-    border-color:black;
-    font-size:40px;
-    color:black;
+#number{
+   font-size:70px;
+   font-style:bold;
+    
 }
 
 #minus{
